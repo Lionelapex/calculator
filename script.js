@@ -1,6 +1,8 @@
+const tittle=document.querySelector("h1.tittle")
+
 const first_num = 2;
 const Second_num = 4;
-const operator = "+";
+const operator = "*";
 
 
 const calculator = {  //calcuor functions 
@@ -35,3 +37,9 @@ const operate = (num1, operator, num2) => {  //operate
     
 };
 operate(first_num, operator, Second_num);
+
+
+ const displayTittle=()=>{
+    tittle.innerHTML+=calculator.name
+ }
+ displayTittle()
