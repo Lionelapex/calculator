@@ -1,9 +1,9 @@
 .firstsection{
   display: flex;
   justify-content: space-between;
- 
+  background-color: hsl(222, 26%, 31%);
   margin-top: 1rem;
-  background-color: hsl(224, 36%, 15%);
+ 
   color: aliceblue;
 }
 
@@ -14,6 +14,7 @@ body{
 }
 
 main{
+  background-color: hsl(222, 26%, 31%);
 display: flex ;
 justify-content: center;
 }
@@ -55,8 +56,16 @@ justify-content: center;
 
 /* screen  */
 .screen{
-  border: blue dotted;
-  margin-top: 0.50rem;
-  height: 4rem;
-  border-radius: 0.50rem;
+  margin-top: 0.90rem;
+  margin-bottom: 0.90rem;
+  height: 5rem;
+  border-radius: 0.90rem;
+  text-align: end;
+  font-family: "League Spartan", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  padding:1rem;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(224, 36%, 15%);
+
 }
