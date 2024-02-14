@@ -21,7 +21,7 @@ justify-content: center;
   margin-top: 3rem;
   border: black dotted;
   max-width: 40rem;
-  min-width: 18.6875rem;
+  min-width:300px;
 }
 .themes{
   display: flex;
