@@ -1,6 +1,15 @@
 const buttons=document.querySelectorAll("button.themebtn")
+const keyButtons=document.querySelectorAll("button.btn")
 
 
+
+keyButtons.forEach(btn=>{
+    btn.style="  background-color: hsl(30, 25%, 89%)"
+})
+
+
+
+//   toggle evnet listeners
  const[btn1,btn2,btn3]=buttons
 
    btn1.addEventListener("click",()=>{
