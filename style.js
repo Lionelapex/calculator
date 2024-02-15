@@ -1,11 +1,23 @@
 const buttons=document.querySelectorAll("button.themebtn")
-const keyButtons=document.querySelectorAll("button.btn")
+const keyButtons=document.querySelectorAll("button.btns")
+const blueButtons=document.querySelectorAll(".del-btn,.reset-btn")
+const equalButton=document.querySelector("button.equal-btn")
 
-
-
-keyButtons.forEach(btn=>{
-    btn.style="  background-color: hsl(30, 25%, 89%)"
+equalButton.style="background-color:hsl(6, 63%, 50%)"
+// colors
+blueButtons.forEach(btn=>{
+    btn.style=" background-color: hsl(225, 21%, 49%);"
 })
+keyButtons.forEach(btn=>{
+    btn.style=" background-color: hsl(30, 25%, 89%)"
+    
+})
+
+
+
+
+
+
 
 
 
