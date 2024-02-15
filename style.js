@@ -6,13 +6,20 @@ const equalButton=document.querySelector("button.equal-btn")
 equalButton.style="background-color:hsl(6, 63%, 50%)"
 // colors
 
-window.addEventListener("mouseover", function() {
+// window.addEventListener("mouseover", function() {
     // code to be executed when the mouseover event occurs
     keyButtons.forEach(btn=>{
         btn.style=" background-color: hsl(30, 25%, 89%)"
         
     })
-  });
+//   });
+//   window.addEventListener("mouseout", function() {
+    // code to be executed when the mouseover event occurs
+    keyButtons.forEach(btn=>{
+        btn.style=" background-color: hsl(30, 25%, 89%)"
+        
+    })
+//   });
 
 
 blueButtons.forEach(btn=>{
