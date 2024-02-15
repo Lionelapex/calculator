@@ -97,9 +97,7 @@ height: 100vh;
   grid-column: span 2;
   
 }
-.reset-btn ::before{
-  background-color: aqua;
-}
+
 .equal-btn{
   grid-column: span 2;
 }
