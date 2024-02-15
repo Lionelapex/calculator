@@ -97,8 +97,8 @@ height: 100vh;
   grid-column: span 2;
   
 }
-.reset-btn :hover{
-  background-color:  hsl(225, 21%, 49%);
+.reset-btn ::before{
+  background-color: aqua;
 }
 .equal-btn{
   grid-column: span 2;
