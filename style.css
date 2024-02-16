@@ -1,20 +1,41 @@
 .firstsection{
   display: flex;
   justify-content: space-between;
-  border: blue dotted;
+  background-color: hsl(222, 26%, 31%);
   margin-top: 1rem;
-  background-color: hsl(224, 36%, 15%);
+  
   color: aliceblue;
+}
+
+.tittle{
+  font-family: "League Spartan", sans-serif;
+  font-weight: 700;
+  font-size: xx-large;
 }
 
 body{
   box-sizing: border-box;
-  font-family: "League Spartan", sans-serif;
-
+  /* font-family: "League Spartan", sans-serif;
+  background-color: hsl(225, 18%, 9%);
+   */
 }
-.container{
+
+main{
+  background-color: hsl(222, 26%, 31%);
+display: flex ;
+justify-content: center;
+height: 100vh;
+}
+.main-container{
   margin-top: 3rem;
-  border: black dotted;
+ 
+  width: 100%;
+  max-width: 22rem;
+  min-width: 200px;
+  
+
+
+  
 }
 .themes{
   display: flex;
@@ -29,7 +50,7 @@ body{
   
  border: none;
  border-radius: 10rem;
- background-color: hsl(222, 26%, 31%);
+ background-color:black;
  color: chartreuse;
  width: auto;
  height: auto;
@@ -43,4 +64,43 @@ body{
   border-radius: 3rem;
   background-color: black;
   gap: 2rem;
+}
+
+/* screen  */
+.screen{
+  margin-top: 0.90rem;
+  margin-bottom: 0.90rem;
+  height: 5rem;
+  border-radius: 0.90rem;
+  text-align: end;
+  font-family: "League Spartan", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  padding:1rem;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(224, 36%, 15%);
+
+}
+
+/* buttons */
+.btns{
+  display: grid;
+  grid-template-columns: repeat(4,3fr);
+  gap: 1rem;
+  
+  padding: 1rem;
+  border-radius: 0.90rem;
+  background-color:  hsl(223, 31%, 20%);
+  
+}
+.reset-btn{
+  grid-column: span 2;
+  
+}
+
+.equal-btn{
+  grid-column: span 2;
+}
+.btn{
+ 
 }

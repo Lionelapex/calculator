@@ -1,6 +1,8 @@
+
+
 const tittle=document.querySelector("h1.tittle")
 
-const first_num = 2;
+const first_num = 5;
 const Second_num = 4;
 const operator = "*";
 
