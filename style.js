@@ -58,7 +58,7 @@ equalBTn.style=" font-weight: 700; background-color:hsl(6, 63%, 50%);box-shadow:
      title.style="color:white;"
      themeName.style="color:white"
      screenBackground.style="background-color: hsl(224, 36%, 15%); color:white;"
-     keypadBackground.style=" background-color:  hsl(223, 31%, 20%);"
+     keypadBackground.style=" background-color: hsl(223, 31%, 20%);"
      toggleContainer.style="background-color:black; border:none; border-radius: 3rem;"
 
 zeroBtn.style=" font-weight: 700;background-color: hsl(30, 25%, 89%);box-shadow: 0px 1px 0px 1px hsl(28, 16%, 65%)"
@@ -77,9 +77,9 @@ multiplyBtn.style="  font-weight: 700;background-color: hsl(30, 25%, 89%)"
 dividebtn.style="  font-weight: 700;background-color: hsl(30, 25%, 89%)"
 periodBtn.style="  font-weight: 700;background-color: hsl(30, 25%, 89%)"
 // delete buttons
-deleteBtn.style="  font-weight: 700;background-color: hsl(225, 21%, 49%);"
-resetBtn.style=" font-weight: 700;  background-color: hsl(225, 21%, 49%)"
-equalBTn.style=" font-weight: 700; background-color:hsl(6, 63%, 50%);"
+deleteBtn.style="  font-weight: 700;background-color: hsl(225, 21%, 49%);box-shadow: 0px 1px 0px 1px hsl(224, 28%, 35%)"
+resetBtn.style=" font-weight: 700;  background-color: hsl(225, 21%, 49%);box-shadow: 0px 1px 0px 1px hsl(224, 28%, 35%)"
+equalBTn.style=" font-weight: 700; background-color:hsl(6, 63%, 50%);box-shadow: 0px 1px 0px 1px hsl(6, 70%,34%)"
 
 
    
