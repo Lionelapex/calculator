@@ -1,4 +1,4 @@
-.firstsection{
+.theme-section{
   display: flex;
   justify-content: space-between;
   background-color: hsl(222, 26%, 31%);
@@ -43,7 +43,7 @@ height: 100vh;
   gap: 2rem;
   
 }
-.theme{
+.themeName{
   margin-top: 0.5em;
 }
 .themebtn{
@@ -57,7 +57,7 @@ height: 100vh;
  
 }
 
-.btn-container{
+.toggle-container{
    height: 2rem;
    margin-top: 0.3em;
   border:  black solid;
@@ -83,7 +83,7 @@ height: 100vh;
 }
 
 /* buttons */
-.btns{
+.keypad-background{
   display: grid;
   grid-template-columns: repeat(4,3fr);
   gap: 1rem;

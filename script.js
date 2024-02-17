@@ -1,6 +1,8 @@
-const tittle=document.querySelector("h1.tittle")
 
-const first_num = 2;
+
+const title=document.querySelector("h1.tittle")
+
+const first_num = 5;
 const Second_num = 4;
 const operator = "*";
 
@@ -40,6 +42,7 @@ operate(first_num, operator, Second_num);
 
 
  const displayTittle=()=>{
-    tittle.innerHTML+=calculator.name
+    title.innerHTML+=calculator.name
+	
  }
  displayTittle()
