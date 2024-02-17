@@ -130,5 +130,38 @@ equalBTn.style=" font-weight: 700; background-color:hsl(25, 98%, 40%); color:whi
     theme3Toggle.addEventListener("click",()=>{
         theme1Toggle.style="background-color: black;"
         theme2Toggle.style="background-color: black;"
-        theme3Toggle.style="background-color: hsl(268, 71%, 12%)"
+        theme3Toggle.style="background-color: hsl(176, 100%, 44%); color:black"
+
+
+        mainBackground.style="  background-color:hsl(268, 75%, 9%)"
+        themeSEction.style=" background-color:hsl(268, 75%, 9%)"
+        title.style="color:hsl(52, 100%, 62%)"
+        themeName.style="color:hsl(52, 100%, 62%)"
+        screenBackground.style="background-color: hsl(268, 71%, 12%); color:hsl(52, 100%, 62%)"
+        keypadBackground.style=" background-color: hsl(268, 71%, 12%);"
+        toggleContainer.style="background-color:black; border:none; border-radius: 3rem;"
+   
+   zeroBtn.style=" font-weight: 700;background-color: hsl(268, 47%, 21%);color:hsl(52, 100%, 62%)  ;box-shadow: 0px 1px 0px 1px hsl(285, 91%, 52%)"
+   oneBtn.style=" font-weight: 700;background-color: hsl(268, 47%, 21%);color:hsl(52, 100%, 62%);box-shadow: 0px 1px 0px 1px hsl(285, 91%, 52%)"
+   twoBtn.style=" font-weight: 700;background-color: hsl(268, 47%, 21%);color:hsl(52, 100%, 62%);box-shadow: 0px 1px 0px 1px hsl(285, 91%, 52%)"
+   threeBtn.style=" font-weight: 700;background-color: hsl(268, 47%, 21%);color:hsl(52, 100%, 62%);box-shadow: 0px 1px 0px 1px hsl(285, 91%, 52%)"
+   fourBtn.style=" font-weight: 700;background-color: hsl(268, 47%, 21%);color:hsl(52, 100%, 62%);box-shadow: 0px 1px 0px 1px hsl(285, 91%, 52%)"
+   fiveBtn.style=" font-weight: 700;background-color: hsl(268, 47%, 21%);color:hsl(52, 100%, 62%);box-shadow: 0px 1px 0px 1px hsl(285, 91%, 52%)"
+   sixBtn.style=" font-weight: 700;background-color: hsl(268, 47%, 21%);color:hsl(52, 100%, 62%);box-shadow: 0px 1px 0px 1px hsl(285, 91%, 52%)"
+   SevenBtn.style=" font-weight: 700;background-color: hsl(268, 47%, 21%);color:hsl(52, 100%, 62%);box-shadow: 0px 1px 0px 1px hsl(285, 91%, 52%)"
+   eightBtn.style=" font-weight: 700;background-color: hsl(268, 47%, 21%);color:hsl(52, 100%, 62%);box-shadow: 0px 1px 0px 1px hsl(285, 91%, 52%)"
+   nineBtn.style=" font-weight: 700;background-color: hsl(268, 47%, 21%);color:hsl(52, 100%, 62%);box-shadow: 0px 1px 0px 1px hsl(285, 91%, 52%)"
+   addBtn.style=" font-weight: 700;background-color: hsl(268, 47%, 21%);color:hsl(52, 100%, 62%);box-shadow: 0px 1px 0px 1px hsl(285, 91%, 52%)"
+   subtractBtn.style=" font-weight: 700;background-color: hsl(268, 47%, 21%);color:hsl(52, 100%, 62%);box-shadow: 0px 1px 0px 1px hsl(285, 91%, 52%)"
+   multiplyBtn.style=" font-weight: 700;background-color: hsl(268, 47%, 21%);color:hsl(52, 100%, 62%);box-shadow: 0px 1px 0px 1px hsl(285, 91%, 52%)"
+   dividebtn.style=" font-weight: 700;background-color: hsl(268, 47%, 21%);color:hsl(52, 100%, 62%);box-shadow: 0px 1px 0px 1px hsl(285, 91%, 52%)"
+   periodBtn.style=" font-weight: 700;background-color: hsl(268, 47%, 21%);color:hsl(52, 100%, 62%);box-shadow: 0px 1px 0px 1px hsl(285, 91%, 52%)"
+   // delete buttons
+   deleteBtn.style="  font-weight: 700;background-color: hsl(281, 89%, 26%);  color:white;   box-shadow: 0px 1px 0px 1px hsl(290, 70%, 36%);"
+   resetBtn.style=" font-weight: 700;  background-color:hsl(281, 89%, 26%);color:white;   box-shadow: 0px 1px 0px 1px hsl(290, 70%, 36%)"
+   equalBTn.style=" font-weight: 700; background-color:hsl(176, 100%, 44%) ;box-shadow: 0px 1px 0px 1px hsl(177, 92%, 70%)"
+
+
+ 
+   
     })
