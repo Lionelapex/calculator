@@ -134,6 +134,10 @@ periodBtn.addEventListener("click", () => {
 
 resetBtn.addEventListener("click", () => {
 	screenBackground.innerHTML = null;
+	first_num = null;
+			operator =null;
+			
+			Second_num = null;
 });
 
 addBtn.addEventListener("click", () => {
