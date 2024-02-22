@@ -1,4 +1,12 @@
 // buttons
+const mainBackground = document.querySelector("main");
+const themeSEction = document.querySelector("div.theme-section");
+const screenBackground = document.querySelector("div.screen");
+const keypadBackground = document.querySelector("div.keypad-background");
+const toggleContainer = document.querySelector("div.toggle-container");
+const tittle = document.querySelector("h1.tittle");
+const toggleElements = document.querySelectorAll("button.themebtn");
+const themeName = document.querySelector("span.themeName");
 
 // buttons
 const [
@@ -27,24 +35,30 @@ const title = document.querySelector("h1.tittle");
 
 //   logic
 
-const first_num = 5;
-const Second_num = 4;
-const operator = "*";
+let first_num; // updating
+let Second_num;
+let operator;
 
 const calculator = {
 	//calcuor functions
+
 	name: "calc",
 	add: (num1, num2) => {
-		return console.log(num1 + num2);
+		const result1 = num1 + num2;
+
+		return (screenBackground.innerHTML = result1);
 	},
 	subtract: (num1, num2) => {
-		return console.log(num1 - num2);
+		const result2 = num1 - num2;
+		return (screenBackground.innerHTML = result2);
 	},
 	multiply: (num1, num2) => {
-		return console.log(num1 * num2);
+		const result3 = num1 * num2;
+		return (screenBackground.innerHTML = result3);
 	},
 	divide: (num1, num2) => {
-		return console.log(num1 / num2);
+		const result4 = num1 / num2;
+		return (screenBackground.innerHTML = result4);
 	},
 };
 
@@ -71,6 +85,10 @@ const displayTittle = () => {
 displayTittle();
 
 //  button click event to call
+zeroBtn.addEventListener("click", () => {
+	const numbeOne = 0;
+	popuplateDisplay(numbeOne);
+});
 oneBtn.addEventListener("click", () => {
 	const numbeOne = 1;
 	popuplateDisplay(numbeOne);
@@ -108,17 +126,44 @@ nineBtn.addEventListener("click", () => {
 	const numbeOne = 9;
 	popuplateDisplay(numbeOne);
 });
-
+//
 periodBtn.addEventListener("click", () => {
-	const numbeOne =".";
+	const numbeOne = ".";
 	popuplateDisplay(numbeOne);
 });
+
 resetBtn.addEventListener("click", () => {
-	screenBackground.innerHTML=null
+	screenBackground.innerHTML = null;
 });
+
+addBtn.addEventListener("click", () => {
+	const numbeOne = "+";
+	popuplateDisplay(numbeOne);
+});
+
+multiplyBtn.addEventListener("click", () => {
+	const numbeOne = "*";
+	popuplateDisplay(numbeOne);
+});
+
+dividebtn.addEventListener("click", () => {
+	const numbeOne = "/";
+	popuplateDisplay(numbeOne);
+});
+
+equalBTn.addEventListener("click", () => {
+	const numbeOne = "=";
+	popuplateDisplay(numbeOne);
+});
+
+let display_value;
+
 //  displaying the numbers on the screen
 const popuplateDisplay = (value) => {
 	switch (value) {
+		case 0:
+			screenBackground.append(value);
+			break;
 		case 1:
 			screenBackground.append(value);
 			break;
@@ -154,25 +199,58 @@ const popuplateDisplay = (value) => {
 			break;
 
 		case ".":
-			
-			
+			if (screenBackground.innerHTML === "") {
+				screenBackground.innerHTML = "";
+			} else if (screenBackground.innerHTML !== "") {
 				screenBackground.append(value);
-			break;	
+			}
+			break;
+		case "+":
+			display_value = screenBackground.innerHTML;
+
+			first_num = display_value;
+			operator = "+";
+			screenBackground.innerHTML = null;
+			Second_num = display_value;
+
+			break;
+		case "-":
+			display_value = screenBackground.innerHTML;
+
+			first_num = display_value;
+			operator = "-";
+			screenBackground.innerHTML = null;
+			Second_num = display_value;
+
+			break;
+
+		case "*":
+			display_value = screenBackground.innerHTML;
+			first_num = display_value;
+			operator = "*";
+			screenBackground.innerHTML = null;
+			Second_num = display_value;
+			break;
+
+		case "/":
+			display_value = screenBackground.innerHTML;
+			first_num = display_value;
+			operator = "/";
+			screenBackground.innerHTML = null;
+			Second_num = display_value;
+
+			break;
+
+		case "=":
+			operate(Number(first_num), operator, Number(Second_num));
+
+			break;
 	}
 };
 
 //  css styling
-const toggleElements = document.querySelectorAll("button.themebtn");
 
 // all elements for that will change for the toggle
-const mainBackground = document.querySelector("main");
-const themeSEction = document.querySelector("div.theme-section");
-const screenBackground = document.querySelector("div.screen");
-const keypadBackground = document.querySelector("div.keypad-background");
-const toggleContainer = document.querySelector("div.toggle-container");
-const tittle = document.querySelector("h1.tittle");
-
-const themeName = document.querySelector("span.themeName");
 
 // applying  styles
 zeroBtn.style =
