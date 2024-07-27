@@ -42,7 +42,7 @@ let operator;
 const calculator = {
 	//calcuor functions
 
-	name: "unaloops.",
+	name: "calc",
 	add: (num1, num2) => {
 		const result1 = num1 + num2;
 
